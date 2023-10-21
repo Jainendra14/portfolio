@@ -23,7 +23,7 @@ const Resume = () => {
                     >
                         {
                             data.experience.map((item, i) => (
-                                <VerticalTimelineElement 
+                                <VerticalTimelineElement
                                 key={i}
                                 className="timeline_expeience_vertical-timeline-element"
                                 contentStyle={{
